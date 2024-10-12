@@ -8,10 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        primary: "#0E8A00", // 主色
+        dark: "#121212", // 深色
+        "black-transparent": "#0000009A", // 黑色透明度 9A
+        "white-transparent-zero": "#FFFFFF00", // 白色透明度 00
+        "black-transparent-62": "#00000062", // 黑色透明度 62
+        "white-transparent-99": "#FFFFFF99", // 白色透明度 99
+        "white-transparent-DE": "#FFFFFFDE", // 白色透明度 DE
       },
     },
   },
